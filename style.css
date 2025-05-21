@@ -1,0 +1,62 @@
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  background-color: lightblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card layout */
+.card {
+  background-color: wheat;
+  padding: 100px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 400px;
+  max-height: 1000px;
+}
+
+/* Profile image styling */
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 28px;
+  color: #333;
+}
+
+h3 {
+  font-size: 22px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Contact links */
+.contacts a {
+  display: block;
+  margin: 8px 0;
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contacts a:hover {
+  color: #ff6600;
+}
